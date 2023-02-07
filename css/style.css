@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #212121;
+	font-family:  "Montserrat";
+}
+
+.container-fluid {
+	background: #EEEEEE;
+}
+
+p {
+	color: aliceblue;
+}
+
+h4, h5{
+	text-align: center;
+	color: aliceblue;
+}
+
+h1 {
+	color: aliceblue;
+}
+
+.hero{
+	padding-top: 20%;
+	padding-bottom: 10%;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.73) ), url("../img/imghero.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+.hero h1 {
+	margin-left: 10%;
+	margin-right: 60%
+}
+
+.hero p {
+	margin-left: 10%;
+	margin-right: 60%
+}
+
+.hero button {
+	margin-left: 10%;
+	margin-right: 60%
+}
+
+
+#contact p{
+	color: #212121;
+}
+
+#contact{
+	background: #EEEEEE;
+}
+
+h6{
+	color: aliceblue;
+}
+
+.footer li {
+	color: aliceblue;
+	list-style: none;
+	padding:5px;
+}
+
+#Testimonios{
+	background: #0E0D0D;
+	padding-top: 20px;
+	}
+
+.titulo{
+	color: aliceblue;
+	font-size: 15px;
+	
+}
+.texto-cursivo{
+	color: #C7AC67;
+	font-size: 20px;
+}
+.texto{
+	color: #EEEEEE;
+	font-size: 15px;
+}
+
+.Testimonios img{
+	width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+	float: left;
+	}
+
+.Testimonios p {
+	width: 80%;
+}
+
+hr{
+	color: aliceblue;
+	
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+}
+
+#TextoBlanco{
+    color: aliceblue;
+}
+
+#TextoDorado{
+    color: #B4AC94;
+}
+
+#botonclase{
+    color: #B4AC94;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 1px solid #B4AC94;
+    border-radius: 20px;
+	background: none;
+}
+
+.spann{
+    color: aliceblue;
+}
+
+
+center {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.formulario {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.form-group .btn_btn-default{
+	float: right;
+}
+
+.formulario h3 {
+	margin-left: 10%;
+	margin-right: 10%
+}
+
+.formulario p {
+	margin-left: 10%;
+	margin-right: 10%
+}
+
+.classfooter {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display:flex;
+}
+
+.ubicacion {
+	width: 30%;
+	margin: 5%;
+}
+
+.preguntas {
+	width: 30%;
+	margin: 5%;
+}
+
+.contacto {
+	width: 30%;
+	margin: 5%;
+}
